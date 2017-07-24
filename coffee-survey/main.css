@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+legend {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rosybrown;
+    padding-top: 2px;
+}
+
+h1 {
+    text-align: center;
+    color: saddlebrown;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rosybrown;
+}
+
+input {
+    padding: 5px 5px;
+    margin: 5px;
+}

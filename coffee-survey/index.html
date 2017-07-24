@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coffee Survey</title>
+        <link type="text/css" rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>Coffee Survey</h1>
+        <form action="http://foo.com" method="POST">
+        
+        <fieldset>
+            
+            <legend>Please provide your contact information:</legend>
+                        
+                <label for="full_name">Full Name: </label>
+                <input id="full_name" type="text" name="full_name" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input id="email" type="email" name="email"> <br>
+
+                <label for="tel">Phone Number: </label>
+                <input id="tel" type="tel" name="tel"> <br>
+            
+        </fieldset>
+        
+        <fieldset>
+            <legend>Which style of coffee do you prefer?</legend>
+                
+                <input type="radio" name="coffee" value="espresso" id="coffee_1"> 
+                <label for="espresso"> Espresso </label> <br>
+                
+                
+                <input type="radio" name="coffee" value="americano" id="coffee_2">
+                <label for="americano"> Americano </label> <br>
+                
+                <input type="radio" name="coffee" value="cappucino" id="coffee_3">
+                <label for="cappucino"> Cappucino </label> <br>
+                               
+                <input type="radio" name="coffee" value="other" id="coffee_4">
+                <label for="other"> Other </label> <br>               
+                                
+        </fieldset>
+        
+        <fieldset>
+            <legend>Do you add anything to your coffee?</legend>
+            
+                <input type="checkbox" name="coffee_add" value="sugar" id="add_1">
+                <label for="sugar"> Sugar </label> <br>                
+                
+                <input type="checkbox" name="coffee_add" value="artifical_sweetener" id="add_2">
+                <label for="artifical_sweetener"> Artifical Sweetener </label> <br>            
+                <input type="checkbox" name="coffee_add" value="cream" id="add_3">
+                <label for="cream"> Cream </label> <br>                
+                
+                <input type="checkbox" name="coffee_add" value="milk" id="add_4">
+                <label for="milk"> Milk </label> <br>   
+                
+                <input type="checkbox" name="coffee_add" value="butter" id="add_5">
+                <label for="butter"> Butter </label> <br>
+                
+                <input type="checkbox" name="coffee_add" value="water" id="add_6">
+                <label for="water"> Water </label> <br>   
+            
+        </fieldset> 
+            
+        <fieldset>
+           
+            <legend>What size do you normally order?</legend>
+                
+                <input type="radio" name="coffee_size" value="small" id="size_1" checked> 
+                <label for="small"> Small </label> <br>
+                
+                <input type="radio" name="coffee_size" value="medium" id="size_2">
+                <label for="medium"> Medium </label> <br>
+                
+                <input type="radio" name="coffee_size" value="large" id="size_3">
+                <label for="large"> Large </label> <br>
+                               
+        </fieldset>
+                 
+        <fieldset>
+           
+            <legend>How many cups of coffee do you drink per day, on average?</legend>
+                
+                <input type="radio" name="coffee_amount" value="amountsmall" id="amount_1" checked> 
+                <label for="amountsmall"> Between 0-1 cups </label> <br>
+                
+                <input type="radio" name="coffee_amount" value="amountmedium" id="amount_2">
+                <label for="amountmedium"> Between 2-3 cups</label> <br>
+                
+                <input type="radio" name="coffee_amount" value="amountlarge" id="amount_3">
+                <label for="amountlarge"> More than 3 cups </label> <br>
+                               
+        </fieldset>         
+                      
+        <fieldset>
+            
+            <legend>What is your fondest memory related to coffee?</legend>
+            
+                <textarea name="coffee_memory" form="usrform" cols="100" rows="10">Tell us about your memory...</textarea>            
+            
+        </fieldset>              
+                       
+        </form>
+    
+    </body>
+</html>
